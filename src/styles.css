@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+#wrapper {
+	text-align: center;
+	padding: 8px 0 0 0;
+/*	background: url(./images/main-bg.jpg); */
+  background-size: cover;
+  color: #5ca6ce;
+}
+
+nav {
+	text-align: right;
+}
+
+
+.bpanel {
+	border: 1px solid;
+	border-color:  #5ca6ce;
+	margin-bottom: 5px;
+}

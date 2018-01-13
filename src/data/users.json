@@ -1,0 +1,75 @@
+[
+    { "id": 1,  "name": "Bill Jones", "imaqgeUrl": "logo2.png",  
+        "connections": [ {"id": 2, "name": "Jack Styles" }, {"id": 3, "name": "Mike Keaton" }, 
+            {"id": 4, "name": "James Wells" }, {"id": 5, "name": "Chris Sneed" } ],
+        "gallery": [ 
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00290.jpg"},
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00383.jpg"},
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00453.jpg"},
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/star0826.jpg"},
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/woodenbox0482.jpg"}
+            ] 
+    },
+
+    { "id": 2,  "name": "Jack Styles", "imaqgeUrl": "",  
+        "connections": [ {"id": 1, "name": "Bill Jones" }, {"id": 3, "name": "Mike Keaton" }, 
+            {"id": 4, "name": "James Wells" }, {"id": 5, "name": "Chris Sneed" } ],
+        "gallery": [ 
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00290.jpg"},
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00383.jpg"},
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00453.jpg"},
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/star0826.jpg"},
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/woodenbox0482.jpg"}
+            ] 
+    },
+
+    { "id": 3,  "name": "Mike Keaton", "imaqgeUrl": "logo2.png",  
+        "connections": [ {"id": 1, "name": "Bill Jones" }, {"id": 2, "name": "Jack Styles" }, 
+            {"id": 4, "name": "James Wells" }, {"id": 5, "name": "Chris Sneed" } ],
+        "gallery": [ 
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00290.jpg"},
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00383.jpg"},
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00453.jpg"},
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/star0826.jpg"},
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/woodenbox0482.jpg"}
+            ] 
+    },
+
+    { "id": 4,  "name": "James Wells", "imaqgeUrl": "",  
+        "connections": [ {"id": 1, "name": "Bill Jones" }, {"id": 2, "name": "Mike Keaton" }, 
+            {"id": 2, "name": "Jack Styles" }, {"id": 4, "name": "Chris Sneed" } ],
+        "gallery": [ 
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00290.jpg"},
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00383.jpg"},
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00453.jpg"},
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/star0826.jpg"},
+            {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/woodenbox0482.jpg"}
+            ] 
+    },
+
+    
+        { "id": 5,  "name": "Chris Sneed", "imaqgeUrl": "logo2.png",  
+            "connections": [ {"id": 1, "name": "Bill Jones" }, {"id": 2, "name": "Mike Keaton" }, 
+                {"id": 3, "name": "James Wells" }, {"id": 6, "name": "Chris Maynard" } ],
+            "gallery": [ 
+                {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00290.jpg"},
+                {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00383.jpg"},
+                {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00453.jpg"},
+                {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/star0826.jpg"},
+                {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/woodenbox0482.jpg"}
+                ] 
+        },
+       
+            { "id": 6,  "name": "Chris Maynard", "imaqgeUrl": "",  
+                "connections": [ {"id": 1, "name": "Bill Jones" }, {"id": 2, "name": "Mike Keaton" }, 
+                    {"id": 3, "name": "James Wells" }, {"id": 4, "name": "Chris Sneed" } ],
+                "gallery": [ 
+                    {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00290.jpg"},
+                    {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00383.jpg"},
+                    {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/objects00453.jpg"},
+                    {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/star0826.jpg"},
+                    {"title": "Title", "imageUrl":"http://www.freeimageslive.com/galleries/objects/general/pics/woodenbox0482.jpg"}
+                    ] 
+            }
+
+]

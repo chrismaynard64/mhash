@@ -1,0 +1,28 @@
+
+<div>
+
+    <div class="sidenav" [ngClass]="{open: show}">
+        
+      <div class="menutitle text-right" (click)="show = !show"><i class="fa fa-close"></i> </div>
+
+      <kendo-panelbar  (stateChange)="stateChange($event)"  [selectable]="false">
+            <kendo-panelbar-item [id]="'/home'"  [title]="'Home'"></kendo-panelbar-item>
+            <kendo-panelbar-item [id]="'/profile'"  [title]="'Profile'"></kendo-panelbar-item>
+            <kendo-panelbar-item [id]="'/about'"  [title]="'About MHash'"></kendo-panelbar-item>
+            <kendo-panelbar-item [id]="'/home'"  [title]="'The Community'"></kendo-panelbar-item>
+            <kendo-panelbar-item [title]="'The Creatives'">
+              <kendo-panelbar-item [title]="'Services'"></kendo-panelbar-item>
+              <kendo-panelbar-item [title]="'Feeds'"></kendo-panelbar-item>
+              <kendo-panelbar-item [title]="'Reviews'"></kendo-panelbar-item>
+          </kendo-panelbar-item>
+          <kendo-panelbar-item [title]="'The Social'" [id]="'/social'" >
+              <kendo-panelbar-item [title]="'Monday'"></kendo-panelbar-item>
+              <kendo-panelbar-item [title]="'Tuesday'"></kendo-panelbar-item>
+              <kendo-panelbar-item [title]="'Wednesday'"></kendo-panelbar-item>
+              <kendo-panelbar-item [title]="'Thursday'"></kendo-panelbar-item>
+              <kendo-panelbar-item [title]="'Friday'"></kendo-panelbar-item>
+          </kendo-panelbar-item>
+          <kendo-panelbar-item [title]="'Events'" [disabled]="false"></kendo-panelbar-item>
+      </kendo-panelbar>
+    </div>
+</div>
