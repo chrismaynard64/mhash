@@ -1,0 +1,40 @@
+<div>
+
+        <div *ngIf="showAbout"   [@about]="true">
+
+
+                <div>
+                    <div class="bigbutton btn" (click)="login()">
+                        LOG IN AS CREATIVE
+                    </div>
+                </div>
+                <div>
+                    <div class="bigbutton btn" (click)="register()">
+                    CREATE ACCOUNT
+                    </div>
+                </div>
+        </div>
+
+        <div *ngIf="!showAbout"  style="text-align:left"  [@about]="true">
+                <h2>About MHash</h2>
+                <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada. Proin eget tortor risus. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Pellentesque in ipsum id orci porta dapibus.</p>
+            
+            <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada. Proin eget tortor risus. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Pellentesque in ipsum id orci porta dapibus.</p>
+        </div>
+        <div>
+                <span class="nav-circle" (click)="showAbout = !showAbout"  *ngIf="!showAbout">
+
+                    </span>
+                    <span class="nav-circle filled">
+
+                        </span>
+                        <span class="nav-circle" (click)="showAbout = !showAbout" *ngIf="showAbout">
+
+                            </span>
+        </div>
+
+        <div   style="text-align:left">
+                <app-bgpicker #bgpicker (click)="select()"></app-bgpicker>
+        </div>
+
+</div>

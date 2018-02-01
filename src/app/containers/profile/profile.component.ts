@@ -82,7 +82,7 @@ user: User;
 
     this.galleryOptions = [
       {
-          width: '500px',
+          width: '470px',
           height: '400px',
           thumbnailsColumns: 4,
           imageAnimation: NgxGalleryAnimation.Slide

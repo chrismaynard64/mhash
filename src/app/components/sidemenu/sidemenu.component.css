@@ -10,7 +10,7 @@
     overflow-x: hidden; /* Disable horizontal scroll */
     padding: 8px 0px 8px 0px;   
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    border-radius:  5px;
+    border-radius:  8px;
 }
 
 /* The navigation menu links */
@@ -35,14 +35,23 @@
 
 div.sidenav.open {
     width: 135px;
-    height: 800px; /* 100% Full-height */
+    height: auto; /* 100% Full-height */
+}
+
+.k-panelbar > .k-panelbar-item.k-state-expanded {
+    border: 1px solid #cccccc;
 }
 
 .k-panelbar > .k-item + .k-item, .k-widget, .k-block {
-    border: 0;
+   border: 0;
 }
 
 div.sidenav {
     border: 0;
     border-image-width: 0;
+    background-color: #cccccc;
+}
+
+div.menutitle {
+    padding: 0 10px 5px 10px;
 }

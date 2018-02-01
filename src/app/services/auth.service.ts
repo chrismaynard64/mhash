@@ -16,10 +16,13 @@ export class AuthService {
         audience: 'https://mhash.eu.auth0.com/userinfo',
         scope: 'openid profile',
      /*   redirectUri: window.location.href, */
-     redirectUri: 'http://localhost:4200'
+     //redirectUri: 'http://localhost:4200', 
+     redirectUri: 'http://213.251.18.165/mhash'
+
     });
 
     userProfile: any;
+
 
     constructor(public router: Router, private store: Store<AppState>, ) {}
 
@@ -28,11 +31,18 @@ export class AuthService {
         this.webAuth.authorize();
     }
 
+
+    public register(): void {
+      this.webAuth.signUp();
+  }
+
+
     public handleAuthentication(): void {
         this.webAuth.parseHash((err, authResult) => {
           if (authResult && authResult.accessToken && authResult.idToken) {
             window.location.hash = '';
             this.setSession(authResult);
+            this.getProfile((err, pr) => {});
             this.router.navigate(['/home']);
           } else if (err) {
             this.router.navigate(['/home']);

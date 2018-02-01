@@ -5,11 +5,13 @@
 
 
       <div class="row">
-        <div class="col-md-4"><a routerLink="/home"><img src="./assets/images/header.png" alt=""></a></div>
+        <div class="col-md-4" style="padding-left:0"><a routerLink="/home"  class="pull-left"><img src="./assets/images/header.png" alt=""></a></div>
         <div class="col-md-8">
           <nav>
 
-            [ <a routerLink="/home">Home</a> ] [ <a routerLink="/test">Test</a> ] <span *ngIf="user">{{user?.name}} {{user?.email}}</span>
+            [ <a routerLink="/home">Home</a> ] <!--[ <a routerLink="/test">Test</a> ]--> 
+            <span *ngIf="user && user.name">{{user?.name}}</span>
+            <span *ngIf="user && !user.name"> {{user?.email}}</span>
 
             <a
            

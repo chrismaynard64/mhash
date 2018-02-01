@@ -1,0 +1,43 @@
+<div class="container">
+
+  <div class="row">
+        <div class="col-md-12">
+
+
+              <h2>Fighter</h2>
+              <form action="" [formGroup]="profileForm" (submit)=save()>
+               <!--     <div *ngIf="fighter$ | async as fighter"> -->
+                          <div *ngIf="user">
+                                <div class="row">
+                                      <div class="col-md-8">
+
+
+                                            <div class="row">
+                                                  <div class="col-md-3"> weight class: </div>
+                                                  <div class="col-md-9">{{user.class}} </div>
+                                            </div>
+                                             <div class="row">
+                                                  <div class="col-md-3"> image url: </div>
+                                                  <div class="col-md-9"><input type="text" formControlName="imageUrl" class="form-control">                                                            </div>
+                                            </div>
+       
+                                      </div>
+                                      <div class="col-md-4">
+                                            <img [src]="user.imageUrl" class="portrait" />
+                                      </div>
+                                </div>
+
+            
+                          </div>
+                 <!--   </div> -->
+                      <button type="submit" class="btn btn-primary">Save</button>
+              </form>
+             
+
+
+        </div>
+
+
+  </div>
+
+</div>

@@ -7,7 +7,7 @@
 	padding: 8px 0 0 0;
 /*	background: url(./images/main-bg.jpg); */
   background-size: cover;
-  color: #5ca6ce;
+  color: #515A5A;
 }
 
 nav {
@@ -17,6 +17,37 @@ nav {
 
 .bpanel {
 	border: 1px solid;
-	border-color:  #5ca6ce;
+	border-color:  #515A5A;
 	margin-bottom: 5px;
+	border-radius: 5px;
 } 
+
+.bpanel.nob {
+	border: none;
+}
+
+body  {
+	/*background-color: linear-gradient(
+		rgba(255, 255, 255, 0.25),
+	 rgba(255, 255, 255, 0.25));
+    background: url("assets/images/backgrounds/background-3075643_1920.jpg")  no-repeat center;
+	background-size: cover;  */
+	
+	background: linear-gradient(rgba(255, 255, 255, 0.7), 	 rgba(255, 255, 255, 0.7)), url("assets/images/backgrounds/background-3075643_1920.jpg")
+
+}
+
+.nav-circle {
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	border: 3px solid #515A5A;
+	margin: 3px 3px 3px 3px;
+	border-radius: 7px;
+	
+}
+
+
+.nav-circle.filled {
+	border: 7.5px solid #515A5A;
+}

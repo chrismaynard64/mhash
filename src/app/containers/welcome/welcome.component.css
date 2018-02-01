@@ -1,0 +1,15 @@
+.bigbutton {
+    height: 90px;
+    width: 440px;
+    background-color:  #515A5A;
+    border-radius: 6px;
+    margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+
+color: white;
+
+font-size: 20pt;
+line-height: 60pt;
+}

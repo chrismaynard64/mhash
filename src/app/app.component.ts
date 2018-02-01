@@ -17,6 +17,7 @@ export class AppComponent {
   title = 'app';
   user: User;
   userDefault = UserDefault;
+  show = false;
 
   constructor(private store: Store<AppState>, public auth: AuthService, private userService: UserService)  {
     

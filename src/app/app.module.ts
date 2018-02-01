@@ -32,6 +32,8 @@ import { AuthService } from './services/auth.service';
 import { AuthcallbackComponent } from './containers/authcallback/authcallback.component';
 import { UserService } from "./services/user.service";
 import { HttpModule } from "@angular/http";
+import { BgpickerComponent } from './components/bgpicker/bgpicker.component';
+import { ProfileEditComponent } from './containers/profile-edit/profile-edit.component';
 
 
 
@@ -52,7 +54,9 @@ import { HttpModule } from "@angular/http";
     TestComponent,
     NocontentComponent,
     SidemenuComponent,
-    AuthcallbackComponent
+    AuthcallbackComponent,
+    BgpickerComponent,
+    ProfileEditComponent
   ],
   imports: [
     BrowserModule,
@@ -65,3 +69,4 @@ import { HttpModule } from "@angular/http";
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+  
